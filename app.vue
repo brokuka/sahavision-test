@@ -21,5 +21,7 @@ const MODAL_TITLE = 'Структура папок'
 </script>
 
 <template>
-  <FolderModal :title="MODAL_TITLE" :data="MOCK_FOLDERS" />
+  <div class="grid place-content-center min-h-screen">
+    <FolderModal :title="MODAL_TITLE" :data="MOCK_FOLDERS" />
+  </div>
 </template>

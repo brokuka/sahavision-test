@@ -62,8 +62,8 @@ watch(isModalOpen, (open) => {
             @select="onFolderSelect(item.value)"
           >
             <template v-if="item.hasChildren">
-              <Icon v-if="!isExpanded" name="material-symbols:folder" class="h-4 w-4" />
-              <Icon v-else name="material-symbols:folder-open" class="h-4 w-4" />
+              <Icon v-if="!isExpanded" name="material-symbols:arrow-forward-ios-rounded" class="h-4 w-4" />
+              <Icon v-else name="material-symbols:arrow-forward-ios-rounded" class="h-4 w-4 rotate-90" />
             </template>
 
             <div class="pl-2">
